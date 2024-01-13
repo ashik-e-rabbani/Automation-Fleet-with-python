@@ -1,0 +1,8 @@
+# .gitignore
+
+# Ignore venv directory
+venv/
+
+# Ignore .idea directory
+.idea/
+
