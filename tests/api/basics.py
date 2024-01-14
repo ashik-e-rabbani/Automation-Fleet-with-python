@@ -2,11 +2,11 @@ import pytest
 import requests
 
 # Define the base URL for your API
-BASE_URL = "https://rapidapi.com"
+BASE_URL = "https://demoqa.com/"
 
 def test_get_request():
     # Send a GET request to the API endpoint
-    response = requests.get(BASE_URL + "/blog/api-glossary/api-request/")
+    response = requests.get(BASE_URL + "books")
 
     # Assert the response status code
     assert response.status_code == 200

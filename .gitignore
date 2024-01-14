@@ -6,3 +6,4 @@ venv/
 # Ignore .idea directory
 .idea/
 
+*.pyc
