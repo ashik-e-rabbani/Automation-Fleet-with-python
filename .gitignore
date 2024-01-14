@@ -5,6 +5,4 @@ venv/
 
 # Ignore .idea directory
 .idea/
-.pytest_cache
-.pyc
-*.pyc
+
