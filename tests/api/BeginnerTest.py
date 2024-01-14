@@ -67,3 +67,10 @@ def test_get_request_multi_assertions():
     # Assert the response status code and show a message
     assert response.status_code == 200, "Success"
     assert isinstance(response.status_code, str), "Result shouldn't be an string"
+
+
+# As this function doesn't follow the naming convention test will not be executed by default by pytest.
+def improperTest_function():
+    response = requests.get(BASE_URL + "books")
+    assert response.status_code == 200, "Success"
+
