@@ -7,9 +7,7 @@ class TestExample:
 
     @pytest.mark.skip(reason="Test is skipped unconditionally.")
     def test_skip_example(self):
-        """
-        This test is skipped unconditionally.
-        """
+        print(f"\nI am not printing....")
         assert True
 
     @pytest.mark.skipif(True, reason="Test is skipped conditionally.")
